@@ -11,33 +11,41 @@
 
     <!--page one -->
 <div data-role="page" id="pageone">
-  <div data-role="header">
+    <!--header, data-position is fixed-->
+  <div data-role="header" data-position ="fixed">
     <h1>Welcome To My Homepage</h1>
   </div>
 
-   <!--link to page2 -->
   <div data-role="main" class="ui-content">
-    <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
+    <p>Welcome! Navigation links below.</p>
+      <!--Navigation links -->
     <a href="#pagetwo">Go to Page Two</a>
-  </div>
+     <a href="#pagethree">Go to Page Three</a>
 
-  <div data-role="footer">
+  </div>
+<!--footer, data-position is fixed-->
+  <div data-role="footer" data-position ="fixed">
     <h1>Footer Text</h1>
   </div>
 </div> 
 
     
+    <!--page 2 -->
 <div data-role="page" id="pagetwo">
-  <div data-role="header">
-    <h1>Welcome To My Homepage</h1>
+        <!--header, data-position is fixed-->
+  <div data-role="header" data-position ="fixed">
+    <h1>Welcome to page 2</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
+    <p>This is Page Two. Navigation links below.</p>
+      <!--Navigation links -->
     <a href="#pageone">Go to Page One</a>
+       <a href="#pagethree">Go to Page Three</a>
   </div>
-
-  <div data-role="footer">
+    
+<!--footer, data-position is fixed-->
+  <div data-role="footer" data-position ="fixed">
     <h1>Footer Text</h1>
   </div>
 </div> 
@@ -45,19 +53,24 @@
     
     <!--page3 -->
     <div data-role="page" id="pagethree">
-  <div data-role="header">
+            <!--header, data-position is fixed-->
+  <div data-role="header" data-position ="fixed">
     <h1>Welcome to page 3</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <p>This is page 3, if you click the link below it will take you to Page One.</p>
+    <p>This is page 3, navigation links below.</p>
+      <!--Navigation links -->
     <a href="#pageone">Go to Page One</a>
+       <a href="#pagetwo">Go to Page Two</a>
   </div>
-
-  <div data-role="footer">
+        
+<!--footer, data-position is fixed-->
+  <div data-role="footer" data-position ="fixed">
     <h1>Footer Text</h1>
   </div>
 </div> 
 
+    
 </body>
 </html>
